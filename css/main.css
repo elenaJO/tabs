@@ -1,0 +1,22 @@
+.container{
+    width: 800px;
+    margin:0 auto;
+    display: block;
+}
+
+
+#first-section .logo{
+    width: 60px;
+    height: 40px;
+}
+
+h1{
+    color:orange;
+    font-size: 3em;
+    text-align: center;
+}
+
+.logo p{
+    color:blue;
+    font-size: 1em; /*que sude tamaño segun la ventana*/
+}
