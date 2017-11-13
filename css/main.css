@@ -42,11 +42,21 @@ h1{
     list-style: none;
 }
 
-.divImg, .divText{
+.divText , .divImg{
     display: inline-block;
+    width: 300px;
+    margin: 30px;
 }
 
+.divText p, .divText h2{
+    display: inline-block;
+} 
 .image{
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
+}
+
+.divText{
+    position: absolute;
+    padding-left: 36px;
 }
