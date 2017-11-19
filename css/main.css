@@ -4,37 +4,26 @@
     display: block;
 }
 
-
 #first-section .logo{
     width: 60px;
     height: 40px;
 }
 
-h1{
-    color:orange;
-    font-size: 3em;
-    text-align: center;
-}
-
-.logo p{
-    color:blue;
-    font-size: 1em; /*que sude tamaño segun la ventana*/
-}
-
 #section-tabs .container-tabs{
     width: 100%;
     color: white;
-    font-size: 1.5em;
-    border-bottom: orange solid 1px;
+    /* outline: 1px solid red; */
+    margin-bottom: 0;
 }
 
 .tab{
-    color: white;
-    background-color: orange;
-    border-radius: 5px;
-    border-bottom: none;
+    color: #000;
+    background-color:#02EEFF;
     padding: 10px;
     width: 100px;
+    border: none;
+    margin-left: 10px;
+    outline: none;
 }
 
 .container-tabs li{
@@ -45,7 +34,7 @@ h1{
 .divText , .divImg{
     display: inline-block;
     width: 300px;
-    margin: 30px;
+    margin: 20px;
 }
 
 .divText p, .divText h2{
@@ -59,4 +48,23 @@ h1{
 .divText{
     position: absolute;
     padding-left: 36px;
+}
+
+.container-tab{
+    /* outline: 1px solid blue; */
+    margin: 0;
+    width: 700px;
+    left: 50px;
+    position: relative;
+    background: #57D0E0 ;
+    /* border-top: none; */
+}
+
+.blue{
+    background: #57D0E0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
 }
